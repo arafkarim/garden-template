@@ -1,0 +1,44 @@
+@media screen and (max-width: 992px){
+	.contact form{
+		position: static;
+		margin: 0 auto;
+	}
+	.slicknav_menu {
+		display:block;
+	}
+	.menubar, .sign{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.footer-top{
+		padding-right: 0;
+	}
+	.footer-top-left{
+		padding-left: 20px;
+	}
+	iframe{
+		display: none;
+	}
+	.contact form{
+		position: static;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width: 768px){
+	.menubar .sign-res{
+		display: none;
+	}
+	.footer-top-middle{
+		padding-left: 20px !important;
+	}
+	.footer-bottom{
+		text-align: center;
+	}
+	.footer-bottom ul{
+		float: left;
+		width: 100%;
+	}
+}
